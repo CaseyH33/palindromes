@@ -115,5 +115,15 @@
             $this->assertEquals(false, $result);
         }
 
+        function test_complex_string_true()
+        {
+            $check_Palindrome = new Palindrome;
+            $input = "!Hello #42.24# olleH!";
+
+            $result = $check_Palindrome->test_Palindrome($input);
+
+            $this->assertEquals(true, $result);
+        }
+
     }
 ?>
