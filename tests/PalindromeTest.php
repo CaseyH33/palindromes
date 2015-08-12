@@ -105,4 +105,14 @@
             $this->assertEquals(true, $result);
         }
 
+        function test_special_chars_false()
+        {
+            $check_Palindrome = new Palindrome;
+            $input = "!@#$";
+
+            $result = $check_Palindrome->test_Palindrome($input);
+
+            $this->assertEquals(false, $result);
+        }
+
     }
