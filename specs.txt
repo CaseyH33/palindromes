@@ -1,0 +1,53 @@
+1.  test_one_letter
+
+    Behavior: Will return true, because a single letter is a palindrome
+    Input: "a"
+    Output: true
+
+2.  test_one_word_true
+
+    Behavior: Will return true because the inputted word is a palindrome
+    Input: "racecar"
+    Output: true
+
+3.  test_one_word_false
+
+    Behavior: Will return false because the inputted word is not a palindrome
+    Input: "taco"
+    Output: false
+
+4.  test_string_true
+
+    Behavior: Will return true because the string is a palindrome
+    Input: "hello olleh"
+    Output: false
+
+5.  test_string_false
+
+    Behavior: Will return false because the string is not a palindrome
+    Input: "i want tacos"
+    Output: false
+
+6.  test_Uppercase_true
+
+    Behavior: Will return true because the string with upper case letters is a palindrome
+    Input: "Hello elloH"
+    Output: true
+
+7.  test_Uppercase_false
+
+    Behavior: Will return false because the string with upper case letters is not a palindrome
+    Input: "Hell elloh"
+    Output: false
+
+8.  test_for_number_true
+
+    Behavior: Will return true because the number is a palindrome
+    Input: 101
+    Output: true
+
+9.  test_for_number_false
+
+    Behavior: Will return false because the number is not a palindrome
+    Input: 452
+    Output: false
