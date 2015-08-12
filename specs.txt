@@ -51,3 +51,27 @@
     Behavior: Will return false because the number is not a palindrome
     Input: 452
     Output: false
+
+10. test_special_chars_true
+
+    Behavior: Will return true because the string with special characters is a palindrome
+    Input: "#$%%$#"
+    Output: true
+
+11. test_special_chars_false
+
+    Behavior: Will return false because the string with special characters is not a palindrome
+    Input: "!@#$"
+    Output: false
+
+12. test_complex_string_true
+
+    Behavior: Will return true because the complex string with words, numbers, and special characters, is a palindrome
+    Input: "!Hello #42.24# olleH!"
+    Output: true
+
+13. test_complex_string_false
+
+    Behavior: Will return false because the complex string is not a palindrome
+    Input: "#@$ LKJSD sf3123"
+    Output: false
