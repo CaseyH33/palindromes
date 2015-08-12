@@ -37,7 +37,7 @@
 7.  test_Uppercase_false
 
     Behavior: Will return false because the string with upper case letters is not a palindrome
-    Input: "Hell elloh"
+    Input: "Hello olleh"
     Output: false
 
 8.  test_for_number_true

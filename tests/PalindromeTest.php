@@ -7,10 +7,10 @@
 
         function test_one_letter()
         {
-            $test_Palindrome = new Palindrome;
+            $check_Palindrome = new Palindrome;
             $input = "a";
 
-            $result = $test_RockPaperScissors->play_rockPaperScissors($input);
+            $result = $check_Palindrome->test_Palindrome($input);
 
             $this->assertEquals(true, $result);
         }
