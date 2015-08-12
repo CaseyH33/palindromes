@@ -85,4 +85,14 @@
             $this->assertEquals(true, $result);
         }
 
+        function test_number_false()
+        {
+            $check_Palindrome = new Palindrome;
+            $input = 452;
+
+            $result = $check_Palindrome->test_Palindrome($input);
+
+            $this->assertEquals(false, $result);
+        }
+
     }
