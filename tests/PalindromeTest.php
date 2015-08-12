@@ -44,4 +44,14 @@
 
             $this->assertEquals(true, $result);
         }
+
+        function test_string_false()
+        {
+            $check_Palindrome = new Palindrome;
+            $input = "i want tacos";
+
+            $result = $check_Palindrome->test_Palindrome($input);
+
+            $this->assertEquals(false, $result);
+        }
     }
