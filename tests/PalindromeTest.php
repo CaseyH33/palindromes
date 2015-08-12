@@ -54,4 +54,15 @@
 
             $this->assertEquals(false, $result);
         }
+
+        function test_uppercase_true()
+        {
+            $check_Palindrome = new Palindrome;
+            $input = "Hello olleH";
+
+            $result = $check_Palindrome->test_Palindrome($input);
+
+            $this->assertEquals(true, $result);
+        }
+
     }

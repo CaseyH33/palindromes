@@ -28,13 +28,13 @@
     Input: "i want tacos"
     Output: false
 
-6.  test_Uppercase_true
+6.  test_uppercase_true
 
     Behavior: Will return true because the string with upper case letters is a palindrome
     Input: "Hello elloH"
     Output: true
 
-7.  test_Uppercase_false
+7.  test_uppercase_false
 
     Behavior: Will return false because the string with upper case letters is not a palindrome
     Input: "Hello olleh"
