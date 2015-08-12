@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <title>Palindrome</title>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Palindromes for Days!</h1>
+        {% if result %}
+        <h5> That <b>is</b> a Palindrome!!</h5>
+        {% else %}
+        <h5>Um.. that <b>is NOT</b> a Palindrome, please try again.</h5>
+        {% endif %}
+
+        <a href="/"><button type="submit" class="btn-success">Home</button></a>
+    </body>
+</html>
