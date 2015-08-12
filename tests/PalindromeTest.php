@@ -125,5 +125,15 @@
             $this->assertEquals(true, $result);
         }
 
+        function test_complex_string_false()
+        {
+            $check_Palindrome = new Palindrome;
+            $input = "#@$ LKJSD sf3123";
+
+            $result = $check_Palindrome->test_Palindrome($input);
+
+            $this->assertEquals(false, $result);
+        }
+
     }
 ?>
